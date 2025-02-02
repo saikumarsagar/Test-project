@@ -4,9 +4,19 @@ https://gitlab.com/saikumarsagar/project1-docker.git
 
 git@gitlab.com:saikumarsagar/project1-docker.git
 
+🌐 **Accessing the Application**
+
+
+Once deployed, you can access the application by navigating to the following URL in your browser:
+
+http://<instance_ip>:8080/WebAppCal-1.3.7
 
 
 
+**Docker **
+
+
+docker pull saidocker2048/project:1.0****
 
 
 # Testing project - Jenkins Integration and CI/CD Pipeline
