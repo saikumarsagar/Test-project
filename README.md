@@ -13,7 +13,7 @@ http://<instance_ip>:8080/WebAppCal-1.3.7
 
 
 
-**Docker **
+**Docker**
 
 
 docker pull saidocker2048/project:1.0****
