@@ -11,7 +11,7 @@ git@gitlab.com:saikumarsagar/project1-docker.git
 
 # Testing project - Jenkins Integration and CI/CD Pipeline
 
-![Project Logo]([link_to_logo_image](https://files.oaiusercontent.com/file-EhF2BpYjrkmF8NTTDJs5on?se=2025-02-02T12%3A35%3A31Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D72a3a647-62d0-4e5a-b4da-5d71de2bcd09.webp&sig=JXE%2B4vN%2B4XHyBJ/TtCVmHelovOjA%2B5k4aFByNA0YYcg%3D))
+(https://files.oaiusercontent.com/file-EhF2BpYjrkmF8NTTDJs5on?se=2025-02-02T12%3A35%3A31Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D72a3a647-62d0-4e5a-b4da-5d71de2bcd09.webp&sig=JXE%2B4vN%2B4XHyBJ/TtCVmHelovOjA%2B5k4aFByNA0YYcg%3D))](https://files.oaiusercontent.com/file-EhF2BpYjrkmF8NTTDJs5on?se=2025-02-02T12%3A35%3A31Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D72a3a647-62d0-4e5a-b4da-5d71de2bcd09.webp&sig=JXE%2B4vN%2B4XHyBJ/TtCVmHelovOjA%2B5k4aFByNA0YYcg%3D)
 
 Welcome to **Project1 Docker**! This repository showcases the integration of Jenkins with Docker, Kubernetes, and Helm for seamless CI/CD implementation. The purpose of this project is to automate the building, deployment, and management of applications using Maven, Docker, and Helm.
 
