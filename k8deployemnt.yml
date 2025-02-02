@@ -1,0 +1,40 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: javacal-deployement
+spec:
+  selector:
+    matchLabels:
+      app: javacal
+  replicas: 4
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1  
+  template:
+    metadata:
+      labels:
+        app: javacal
+    spec:
+      containers:
+      - name: javacal
+        image: saidocker2048/project:1.0
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: javacal-service
+  labels:
+    app: javacal
+spec:
+  selector:
+    app: javacal
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 31400
