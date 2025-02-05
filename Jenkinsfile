@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'agent'
+        label 'k8'
     }
 
     stages {
@@ -12,7 +12,8 @@ pipeline {
 
     stage('MVN Build and Junit testing by MVN') {
             steps {
-             sh 'mvn clean package'
+             sh 'mvn clean install -s $MAVEN_SETTINGS' //using maven settings
+           //  sh 'mvn clean package'
            //   junit 'target/surefire-reports/*.xml'
             }
         } 
